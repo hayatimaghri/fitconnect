@@ -13,52 +13,13 @@ $adherents = $controller->index();
     <meta charset="UTF-8">
     <title>Liste des Adhérents</title>
 
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            margin:40px;
-        }
-
-        table{
-            border-collapse: collapse;
-            width:100%;
-        }
-
-        th,td{
-            border:1px solid #ccc;
-            padding:10px;
-            text-align:center;
-        }
-
-        th{
-            background:#f2f2f2;
-        }
-
-        a{
-            text-decoration:none;
-            padding:5px 10px;
-        }
-
-        .btn{
-            background:green;
-            color:white;
-            border-radius:5px;
-        }
-
-        .edit{
-            color:blue;
-        }
-
-        .delete{
-            color:red;
-        }
-    </style>
-
+<link rel="stylesheet" href="../style.css">
+<?php include "../header.php"; ?>
 </head>
 
 <body>
 
-<h2>Liste des Adhérents</h2>
+<h2 class=list>Liste des Adhérents</h2>
 
 <br>
 

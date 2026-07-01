@@ -13,54 +13,14 @@ $salles = $controller->index();
 <meta charset="UTF-8">
 <title>Liste des Salles</title>
 
-<style>
+<link rel="stylesheet" href="../style.css">
 
-body{
-    font-family:Arial;
-    margin:40px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-}
-
-th,td{
-    border:1px solid #ccc;
-    padding:10px;
-    text-align:center;
-}
-
-th{
-    background:#f2f2f2;
-}
-
-a{
-    text-decoration:none;
-    padding:5px 10px;
-}
-
-.btn{
-    background:green;
-    color:white;
-    border-radius:5px;
-}
-
-.edit{
-    color:blue;
-}
-
-.delete{
-    color:red;
-}
-
-</style>
-
+<?php include "../header.php"; ?>
 </head>
 
 <body>
 
-<h2>Liste des Salles</h2>
+<h2 class=list>Liste des Salles</h2>
 
 <br>
 

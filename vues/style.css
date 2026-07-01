@@ -1,0 +1,185 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#ffffff;
+}
+
+.list{
+    color: #2563eb;
+    margin-top: 20px;
+}
+/* ---------- TABLE ---------- */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:25px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    padding: 20px;
+}
+
+th{
+    background:#95CCDD;
+    color:white;
+    padding:15px;
+    text-transform:uppercase;
+    font-size:14px;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+
+tr:hover{
+    background:#D0E7E6;
+    transition:.3s;
+}
+
+/* ---------- BUTTON AJOUTER ---------- */
+
+.btn{
+    display:inline-block;
+    background:#4274D9;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#15803d;
+}
+
+/* ---------- ACTIONS ---------- */
+
+.edit{
+    background:#2563eb;
+    color:white;
+    padding:8px 15px;
+    border-radius:6px;
+    text-decoration:none;
+    margin-right:5px;
+    transition:.3s;
+}
+
+.edit:hover{
+    background:#1d4ed8;
+}
+
+.delete{
+    background:#dc2626;
+    color:white;
+    padding:8px 15px;
+    border-radius:6px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.delete:hover{
+    background:#b91c1c;
+}
+
+/* ---------- TITRE ---------- */
+
+h2{
+    margin:30px 0;
+    text-align:center;
+    color:#1f2937;
+}
+header{
+    width:100%;
+    background:#293681;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    margin-top: -15px;
+
+}
+.logo h1{
+    margin:0;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+    margin:0;
+    padding:0;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+.welcome{
+    text-align:center;
+    margin-top:50px;
+}
+
+.welcome h2{
+    color:#1f2937;
+}
+
+.cards{
+    width:90%;
+    margin:50px auto;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:220px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:0.3s;
+    margin:15px;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#2563eb;
+}
+
+.card p{
+    font-size:40px;
+    color:#16a34a;
+    font-weight:bold;
+}
+
+footer{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:182px;
+}
+
